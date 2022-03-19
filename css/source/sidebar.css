@@ -1,0 +1,123 @@
+.sidebar {
+  width: 300px;
+  height: 440px;
+  padding: 27px 0;
+  position: fixed;
+  top: 90px;
+  right: 130px;
+}
+
+.sidebar-user {
+  width: 295px;
+  height: 58px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.sidebar-user__icon {
+  padding-top: 3px;
+}
+
+.sidebar-user__icon img {
+  width: 56px;
+  height: 58px;
+  border-radius: 50%;
+  border: 1px solid rgb(142, 142, 142);
+}
+
+.sidebar-user__info {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-left: 10px;
+}
+
+.sidebar-user__id {
+  font-size: 14px;
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+
+.sidebar-user__name {
+  font-size: 12px;
+  color: rgb(142, 142, 142);
+}
+
+.sidebar-user__change-btn a {
+  color: rgb(0, 149, 246);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sidebar-recommend__text {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.sidebar-recommend__text span {
+  color: rgb(142, 142, 142);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebar-recommend__text a {
+  font-size: 12px;
+}
+
+.sdiebar-people__user {
+  width: 295px;
+  height: 34px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.sdiebar-people__user > .sidebar-user__icon img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgb(142, 142, 142);
+}
+
+.sdiebar-people__user > .sidebar-user__info {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.sidebar-footer {
+  margin-top: 19px;
+}
+
+.sidebar-footer__first {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.sidebar-footer__first a {
+  color: rgb(142, 142, 142);
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.sidebar-footer__second {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.sidebar-footer__second a {
+  color: rgb(142, 142, 142);
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.sidebar-footer__third span {
+  font-size: 12px;
+  color: rgb(142, 142, 142);
+}
