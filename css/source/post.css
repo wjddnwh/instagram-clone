@@ -1,0 +1,145 @@
+.main-screen__post {
+  width: 615px;
+  height: 867.5px;
+  border: 1px solid rgb(225, 225, 225);
+  margin-bottom: 26px;
+}
+
+.post-firtst {
+  width: 615px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.post-write {
+  width: 615px;
+  height: 60px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-wrtie__icon > img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.post-write__info {
+  width: 85%;
+}
+
+.post-write__id {
+  font-weight: 600;
+}
+
+.post-img {
+  width: 615px;
+  height: 614px;
+}
+
+.post-img img {
+  width: 615px;
+  height: 614px;
+}
+
+.post-icon__center {
+  width: 615px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-icon__center i:first-child {
+  padding-right: 3px;
+}
+
+.post-second {
+  width: 615px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.post-second i {
+  transition: color 0.3s ease-in-out;
+}
+
+.post-second i:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.post-icon__left i {
+  padding-right: 20px;
+}
+
+.post-third {
+  width: 615px;
+  height: 90px;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.post-like__count {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.post-comment span:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.post-comment span:nth-child(2) {
+  font-size: 14px;
+}
+
+.post-comment button {
+  color: rgb(142, 142, 142);
+}
+
+.post-comment__wrote {
+  font-size: 14px;
+  color: rgb(142, 142, 142);
+  padding-top: 5px;
+}
+
+.post-time {
+  font-size: 10px;
+  color: rgb(143, 143, 143);
+  padding-top: 10px;
+}
+
+.post-fourth {
+  width: 615px;
+  height: 50px;
+  border-top: 1px solid rgb(225, 225, 225);
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.post-imoge {
+  padding-right: 18px;
+}
+
+.post-write__comment {
+  width: 500px;
+}
+
+.post-write__btn button {
+  color: rgb(0, 149, 246);
+}
+
+.hashtag {
+  font-weight: 600;
+  color: rgb(0, 55, 107);
+}
